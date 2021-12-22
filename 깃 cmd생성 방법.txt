@@ -1,0 +1,13 @@
+만드는 법
+git init
+git add .
+git commit -m "영어로 아무거나"
+git push origin master	//-f 붙이면 강제로 됨
+
+처음으로 되돌리는 법
+git reset HEAD
+git reflog
+git reset 가장 아래 숫자
+
+되돌리고 다시 만들면
+git add . 부터 시작
