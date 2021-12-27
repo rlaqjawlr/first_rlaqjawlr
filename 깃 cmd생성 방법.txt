@@ -1,5 +1,6 @@
 만드는 법
 git init
+git remote add origin https://github.com/rlaqjawlr/first_test.git
 git add .
 git commit -m "영어로 아무거나"
 git push origin master	//-f 붙이면 강제로 됨
@@ -7,7 +8,22 @@ git push origin master	//-f 붙이면 강제로 됨
 처음으로 되돌리는 법
 git reset HEAD
 git reflog
-git reset 가장 아래 숫자
+git reset 가장 아래자
 
 되돌리고 다시 만들면
 git add . 부터 시작
+
+
+버전 업글 하는거
+git pull
+git pull 브랜치 이름
+
+브랜치 만들기
+git branch 새로운 브랜치 이름
+git checkout 브랜치 이름
+git merge 브랜치명
+
+git checkout 다른 브랜치 이름
+
+
+https://khs613.github.io/github/github-base/
